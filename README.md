@@ -1,0 +1,1 @@
+## This is a repo for Learn to Program book by Chris Pine Second edition, where i'm learning to program. It contains the exercises in this book and my own solutions to them. ##
