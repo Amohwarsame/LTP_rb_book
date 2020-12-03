@@ -1,0 +1,18 @@
+# This program accounts for words that start with a capital letter. Works like a normal dictionary.
+languages = ['English', 'arabic', 'french', 'Danish', 'Catalan', 'German', 'japanese']
+def sorter array
+  num = array.length()
+  while true 
+    swapped = false
+    (num - 1).times do |i| 
+      if array[i].downcase > array[i + 1].downcase
+        array[i], array[i + 1] = array[i + 1], array[i]
+        swapped = true
+      end
+    end
+    break if not swapped
+  end
+  array
+end
+
+puts sorter(languages)  
